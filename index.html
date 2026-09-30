@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eine Woche Mallorca für dich</title>
+  <meta name="description" content="Villa Es Caló Roig · Cala Ratjada · 15.–22. Mai 2027" />
+  <meta property="og:title" content="Eine Woche Mallorca für dich" />
+  <meta property="og:description" content="Villa Es Caló Roig · Cala Ratjada · 15.–22. Mai 2027" />
+  <meta property="og:image" content="images/01.jpg" />
+  <style>
+    :root {
+      --ink: #1c1917;
+      --muted: #57534e;
+      --sand: #f5f1ea;
+      --card: #ffffff;
+      --line: #e7e0d5;
+      --accent: #0f766e;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      color: var(--ink);
+      background: linear-gradient(180deg, #efe8dc 0%, var(--sand) 220px, #faf8f5 100%);
+      line-height: 1.45;
+    }
+    .wrap {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 28px 18px 64px;
+    }
+    header {
+      text-align: center;
+      padding: 28px 12px 8px;
+    }
+    .eyebrow {
+      font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+      font-size: 12px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+      font-weight: 600;
+      margin: 0 0 10px;
+    }
+    h1 {
+      font-weight: 500;
+      font-size: clamp(1.85rem, 4.5vw, 2.6rem);
+      margin: 0 0 10px;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 22px 20px;
+      margin: 28px 0 26px;
+      box-shadow: 0 10px 30px rgba(28, 25, 23, 0.04);
+    }
+    .facts {
+      display: grid;
+      gap: 14px;
+      font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+      font-size: 0.95rem;
+    }
+    .fact strong {
+      display: block;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .fact a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(15, 118, 110, 0.35);
+    }
+    .fact a:hover { border-bottom-color: var(--accent); }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+    @media (min-width: 640px) {
+      .grid { grid-template-columns: 1fr 1fr; gap: 14px; }
+      .grid .span-2 { grid-column: span 2; }
+    }
+    .grid figure {
+      margin: 0;
+      border-radius: 14px;
+      overflow: hidden;
+      background: #ddd;
+      aspect-ratio: 4 / 3;
+    }
+    .grid .span-2 { aspect-ratio: 16 / 9; }
+    .grid img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    footer {
+      text-align: center;
+      margin-top: 36px;
+      color: var(--muted);
+      font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <p class="eyebrow">Zum Geburtstag</p>
+      <h1>Eine Woche Mallorca für dich</h1>
+      <p class="sub">Villa Es Caló Roig · Cala Ratjada</p>
+    </header>
+
+    <section class="card">
+      <div class="facts">
+        <div class="fact">
+          <strong>Wann</strong>
+          15.–22. Mai 2027 · Samstag bis Samstag · 7 Nächte
+        </div>
+        <div class="fact">
+          <strong>Die Villa</strong>
+          6 Schlafzimmer · 4,5 Bäder · bis 12 Personen
+        </div>
+        <div class="fact">
+          <strong>Adresse</strong>
+          Carrer Arquitecto Alomar 21, 07590 Cala Ratjada, Spanien
+        </div>
+        <div class="fact">
+          <strong>Karte</strong>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=39.7037372,3.4548692" target="_blank" rel="noopener">Route in Google Maps öffnen</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid" aria-label="Fotos der Villa">
+      <figure class="span-2"><img src="images/01.jpg" alt="Villa Es Caló Roig" loading="eager" /></figure>
+      <figure><img src="images/02.jpg" alt="" loading="lazy" /></figure>
+      <figure><img src="images/03.jpg" alt="" loading="lazy" /></figure>
+      <figure><img src="images/04.jpg" alt="" loading="lazy" /></figure>
+      <figure><img src="images/05.jpg" alt="" loading="lazy" /></figure>
+      <figure class="span-2"><img src="images/06.jpg" alt="" loading="lazy" /></figure>
+      <figure><img src="images/07.jpg" alt="" loading="lazy" /></figure>
+      <figure><img src="images/08.jpg" alt="" loading="lazy" /></figure>
+      <figure><img src="images/09.jpg" alt="" loading="lazy" /></figure>
+      <figure><img src="images/10.jpg" alt="" loading="lazy" /></figure>
+      <figure class="span-2"><img src="images/11.jpg" alt="" loading="lazy" /></figure>
+      <figure><img src="images/12.jpg" alt="" loading="lazy" /></figure>
+      <figure><img src="images/13.jpg" alt="" loading="lazy" /></figure>
+      <figure><img src="images/14.jpg" alt="" loading="lazy" /></figure>
+      <figure><img src="images/15.jpg" alt="" loading="lazy" /></figure>
+      <figure class="span-2"><img src="images/16.jpg" alt="" loading="lazy" /></figure>
+      <figure><img src="images/17.jpg" alt="" loading="lazy" /></figure>
+      <figure><img src="images/18.jpg" alt="" loading="lazy" /></figure>
+      <figure><img src="images/19.jpg" alt="" loading="lazy" /></figure>
+      <figure><img src="images/20.jpg" alt="" loading="lazy" /></figure>
+    </section>
+
+    <footer>Viel Freude damit.</footer>
+  </div>
+</body>
+</html>
